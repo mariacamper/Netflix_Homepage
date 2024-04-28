@@ -1,0 +1,147 @@
+* {
+    margin: 0, auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+     
+}
+body {
+    color: #fff;
+   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/image.jpg); 
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+    
+}
+.logo {
+    width: 12%;
+    margin-left: 10%;
+}
+.sign_in {
+    margin-right: 15%;
+    background-color:red;
+    color: #fff;
+    padding: 7px 10px 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#language {
+    margin-left: 45%;
+    color: #fff;
+    background-color: black;
+    padding: 7px 10px 5px 10px;
+    font-size: 16px;
+}
+.content {
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+
+}
+.eaddress {
+    width: 25%; /* Adjust as needed */
+    padding: 18px;
+    font-size: 16px; /* Adjust as needed */
+    border: 1px solid #ccc; /* Adjust as needed */
+    border-radius: 4px; /* Rounded corners */
+    background-color: rgb(23, 14, 14);
+    color: #fff;
+}
+
+.eaddress:focus {
+    border-color: #fff; /* Highlight color on focus */
+   /* outline: none; /* Removes the default focus outline */
+}
+
+.search {
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#markees {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-gap: 20px;
+}
+#section1 {
+    margin-top: 200px;
+    width: 100%;
+    
+}
+.card1{
+    text-align: left;
+    margin-left: 25%;
+}
+
+.accordion-body {
+    font-size: 24px;
+}
+.content2 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.foot_notes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+ul .li {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
